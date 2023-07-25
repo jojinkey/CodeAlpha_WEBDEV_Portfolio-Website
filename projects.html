@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Portfolio - Projects</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="{{ url_for('home') }}">Home</a></li>
+                <li><a href="{{ url_for('about') }}">About</a></li>
+                <li><a href="{{ url_for('projects') }}">Projects</a></li>
+                <li><a href="{{ url_for('contact') }}">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Projects</h2>
+        <p>Here are some of the projects I have worked on:</p>
+
+        <section>
+            <h3>Intelligent Intell-i-green Interface</h3>
+            <ul>
+                <li>Developed Xcode app with weather and plant APIs for real-time data.</li>
+                <li>Utilized neural networks for optimal plant care recommendations.</li>
+                <li>Implemented secure MongoDB NoSQL DBMS to store, retrieve, and manipulate user information.</li>
+                <li>Created a unique 4-layer graphical password system for secure login, along with a website using Flask module.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h3>Web Crawling and Sentimental Analysis</h3>
+            <ul>
+                <li>Web Crawled Articles and Developed a Python sentiment and readability analysis pipeline using NLTK.</li>
+                <li>Created interactive Power BI dashboards for visualizing analysis results, empowering stakeholders with actionable insights; along with cross verification of data with R language in R studio.</li>
+                <li>Applied text analysis techniques to real-world scenarios, such as brand reputation management and content optimization.</li>
+                <li>Enabled data-driven decision-making by combining Python's analysis capabilities with Power BI's visualizations.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h3>WhaleWatch - Crypto Whale Analysis and Legitimacy Checker</h3>
+            <ul>
+                <li>Analyzes transaction history of crypto whales for valuable insights.</li>
+                <li>Assesses smart contracts to determine token legitimacy.</li>
+                <li>Tech: Blockchain, Solidity, Smart Contract Analysis, Data Visualization.</li>
+                <li>Solves real-world problems of transparency and risk assessment in the crypto market.</li>
+            </ul>
+        </section>
+    </main>
+</body>
+</html>
